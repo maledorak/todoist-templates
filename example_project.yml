@@ -1,0 +1,16 @@
+name: Example Project
+color: 30-49
+
+tasks:
+  - name: Some task 1
+  - name: Some task 2
+
+sections:
+  - name: Some section 1
+    tasks:
+      - name: Some task in section 1
+        priority: 1-4
+
+  - name: Some section 2
+    tasks:
+      - name: Some task in section 2
