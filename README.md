@@ -1,19 +1,20 @@
-todoist-template
+todoist-templates
 ================
+[![pypi](https://img.shields.io/pypi/v/todoist_templates.svg)](https://pypi.python.org/pypi/todoist_templates)
 
 Create Todoist projects from file.
 
 Supported file types:
  * yml, yaml
 
-#### How to use?
-* Clone this repository
-* Install requirements `pip install -r requirements.txt`
+How to use?
+-----------
+* Install `pip install --user todoist_templates`
 * Set environment variable with your TodoistApi `export TODOIST_API=123123123`
 * Create project template based on `example_project.yml` file
-* Run `./bin/todoist_templates path/to/project_template.yml`
+* Run `todoist_templates path/to/project_template.yml`
 
-#### Todo
-* deploy to pypi
-* add tests
-* add json support
+Todo
+----
+* Add tests
+* Add JSON support
